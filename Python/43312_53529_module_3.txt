@@ -1,0 +1,12 @@
+#Module 3 - Multiple Assignment Operators
+
+x, y, z = 10, 20, 30
+print(x)
+print(y)
+print(z)
+
+#using a For Loop with Multiple Assignment Operators
+
+ages = {"Dave": '22', "Bob": '33', "Mark": '38'}
+for key, value in ages.items():
+    print(f" {key} is {value} years old")

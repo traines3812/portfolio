@@ -1,0 +1,21 @@
+#Module 2 - Working with Data Types
+
+#Type command
+
+x = 10.32
+print(type(x))
+
+
+#isinstance command
+
+print(isinstance(4.5, float))   #Should return true
+print(isinstance(5, int))       #Should return true
+print(isinstance(72, str))      #Should return false
+
+#Concatenation
+
+who = "David"
+how = "likes"
+what = "football"
+
+print(who + how + what)         #Should print, "David likes football"
